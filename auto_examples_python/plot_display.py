@@ -346,8 +346,8 @@ fig.colorbar(img1, ax=[ax[0], ax[1]])
 # Or have individual colorbars:
 fig.colorbar(img3, ax=[ax[2]])
 
-# We can then even do fancy things like zoom into a particular time and frequency region.
-#   Since the axes are shared, this will apply to all three subplots at once.
+# We can then even do fancy things like zoom into a particular time and frequency
+# region.  Since the axes are shared, this will apply to all three subplots at once.
 ax[0].set(xlim=[1, 3])  # Zoom to seconds 1-3
 
 
@@ -407,5 +407,3 @@ ax[1].set(xlim=[10, 25])
 # Interested readers should look through the rest of the API
 # documentation to see how these other options can be used
 # effectively.
-
-# %%
