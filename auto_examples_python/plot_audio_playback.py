@@ -76,6 +76,9 @@ f0, voiced_flag, voiced_probs = librosa.pyin(y,
 times = librosa.times_like(f0)
 
 # %%
+
+
+# %%
 # mir_eval's synthesizer uses negative f0 values to indicate
 # unvoiced regions.
 #
@@ -136,3 +139,4 @@ Audio(data=y+y_clicks, rate=sr)
 #     in the same cell, you can use
 #     ``IPython.display.display(IPython.display.Audio(...))`` to explicitly render
 #     each widget.  This is helpful when playing back multiple related signals.
+
